@@ -636,15 +636,38 @@
         <h5 class="offcanvas-title" id="sidebar-label">My Other Books</h5>
         <button
           type="button"
-          class="btn-close"
+          class="btn btn-close"
           data-bs-dismiss="offcanvas"
           aria-label="Close"
         ></button>
       </div>
       <div class="offcanvas-body">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
-        accusantium illo ea deserunt aspernatur libero. Praesentium quam minus
-        perferendis debitis voluptatibus odio eligendi illo ipsum?
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+          accusantium illo ea deserunt aspernatur libero. Praesentium quam minus
+          perferendis debitis voluptatibus odio eligendi illo ipsum?
+        </p>
+        <!-- dropdown -->
+        <div class="dropdown mt-3">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            id="book-dropdown"
+            data-bs-toggle="dropdown"
+          >
+            Choose a Book Title
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="book-dropdown">
+            <li>
+              <a href="#" class="dropdown-item">Dune</a>
+            </li>
+            <li><a href="#" class="dropdown-item">Dune Messiah</a></li>
+            <li><a href="#" class="dropdown-item">Children of Dune</a></li>
+            <li><a href="#" class="dropdown-item">God Emperor of Dune</a></li>
+            <li><a href="#" class="dropdown-item">Heretics of Dune</a></li>
+            <li><a href="#" class="dropdown-item">Chapterhouse: Dune</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
